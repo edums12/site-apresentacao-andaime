@@ -18,27 +18,45 @@
 <body>
     <div id="main">
         <div class="container">
-
+            <div class="search">
+                <select name="" id="" class="select citys">
+                    <option value="" disabled selected>Selecione uma Cidade...</option>
+                    <option value="torres">Torres</option>
+                    <option value="criciuma">Criciúma</option>
+                    <option value="capao canoa">Capão da Canoa</option>
+                    <option value="passo torres">Passo de Torres</option>
+                </select>
+            </div>
             <header class="header">
-                <div class="date">Segunda feira, 21 de setembro</div>
-                <div class="city">Torres - RS</div>
+                <div class="date"></div>
+                <div class="city"></div>
+                <div class="situacao"></div>                
             </header>
 
             <div class="content">
                 <div class="temp">
                     <!-- <i class="fa fa-sun-o"></i> -->
-                    <h1>12 ºC</h1>
+                    <h1>PREVISÃO DO TEMPO</h1>
                 </div>
                 <div class="informations">
                     <ul>
                         <li>
-                            <i class="fa fa-tint"></i> 100%
+                            <i class="fa fa-tint"></i> 
+                            <div class="precipty">
+                                
+                            </div>
                         </li>
                         <li>
-                            <i class="fa fa-location-arrow"></i> 38 km/h
+                            <i class="fa fa-location-arrow"></i>
+                            <div class="wind">
+                                
+                            </div>
                         </li>
                         <li>
-                            <i class="fa fa-thermometer-full" aria-hidden="true"></i> UV alto
+                            <i class="fa fa-thermometer-full" aria-hidden="true"></i> 
+                            <div class="uv">
+                                
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -84,6 +102,11 @@
             </ul>
         </div>
     </div>
+
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
